@@ -1,0 +1,157 @@
+
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Nerko';
+  src: url('../src/assets/fonts/NerkoOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../src/assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@theme{
+  --font-nerko: Nerko, 'sans-serif';
+  --font-poppins: Poppins, 'sans-serif';
+}
+
+@utility bg-primary {
+  background-color: #FFFFFF; 
+}
+
+@utility text-primary{
+  color:#053C5E
+}
+
+@utility border-primary{
+  border-color:#053C5E
+}
+
+@utility bg-secondary {
+  background-color: #053C5E; 
+}
+
+@utility text-secondary{
+  color:#FFD700
+}
+
+@utility flex-center{
+  @apply flex justify-center items-center ;
+}
+
+@utility col-center{
+  @apply flex flex-col items-center ;
+}
+
+@utility bg-dust{
+  background-image: url('../public/background-imgs/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* HERO -- SECTION */
+
+.HERO-SECTION{
+  @apply h-fit bg-dust pt-28 overflow-clip flex-center ;
+}
+
+.hero-container{
+  @apply grid grid-cols-1 lg:grid-cols-2 place-items-center gap-5 place-content-center relative z-20 ;
+}
+
+.hero-text-content{
+  @apply text-center lg:text-start font-poppins text-primary col-center lg:items-start gap-4 ;
+}
+
+
+/* ABOUT -- SECTION */
+
+
+.ABOUT-SECTION{
+  @apply h-fit bg-secondary pb-24 pt-8 sm:pt-0 md:pb-20 md:py-15 lg:rounded-4xl overflow-x-clip;
+}
+
+.About-container{
+  @apply relative text-secondary grid grid-cols-1 place-items-center gap-15 sm:gap-10 md:gap-6 px-2 ;
+}
+
+.heading-content{
+  @apply flex-center w-full ;
+}
+
+.triangles{
+  @apply flex justify-between w-full sm:w-160 h-30 ;
+}
+
+.heading-primary{
+  @apply text-7xl sm:text-[150px] underline underline-offset-15 decoration-5 decoration-dashed text-center ;
+}
+
+.heading-secondary{
+  @apply text-7xl sm:text-[150px] underline underline-offset-15 decoration-5 decoration-dashed text-primary text-center ;
+}
+
+.about-content-wrapper{
+  @apply gap-4 sm:gap-2 md:gap-0 grid  grid-cols-1 md:grid-cols-2 text-center place-items-stretch relative ;
+}
+
+.about-left-side{
+  @apply col-center lg:gap-3 order-2 md:order-first ;
+}
+
+.about-right-side{
+  @apply flex flex-col items-center justify-center md:justify-start ;
+}
+
+
+/* SKILL--SECTION */
+
+
+.SKILLS-SECTION{
+  @apply h-fit bg-dust md:pt-8 pb-8 lg:pb-15  px-3  overflow-clip flex-center ;
+}
+
+
+
+
+/* WORK--SECTION */
+
+.WORK-SECTION {
+  @apply h-fit bg-secondary  md:pt-0 pb-8  px-3 lg:rounded-4xl overflow-clip flex-center relative;
+}
+
+.work-container{
+  @apply relative col-center gap-12 sm:gap-4 lg:gap-8;
+}
+
+.skills-cards-wrapper{
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-5 z-20;
+}
+
+
+/* EXPERIENCE--SECTION */
+
+.EXPERIENCE-SECTION{
+  @apply h-fit bg-dust md:pt-23 py-18 lg:pt-40 lg:pb-15 px-5  overflow-clip flex-center ; 
+}
+
+.experience-text{
+  @apply  sm:text-2xl md:text-3xl lg:text-4xl text-center text-primary font-poppins font-semibold  lg:leading-15 opacity-50 max-w-7xl ;
+}
+
+
+/* FOOTER-SECTION */
+
+
+.FOOTER-SECTION{
+  @apply pt-10 px-3 md:pt-20 bg-dust flex flex-col items-center gap-18 overflow-clip ;
+}
