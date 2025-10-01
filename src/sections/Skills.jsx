@@ -3,6 +3,41 @@ import SkillCard from "../components/skillsCards";
 import TagSecondary from "../components/TagSecondary";
 
 const Skills = () => {
+
+  const skills = [
+    {img : '/icons/manual.png',
+      alt:'manual',
+      title:'Manual & Automation',
+      description:'Skilled in executing test cases manually and automating workflows for efficiency.'
+    },
+    {img : '/icons/bug-tracking.png',
+      alt:'bug-tracking',
+      title:'Bug-Tracking',
+      description:'Experienced in using tools like Jira and Trello to identify, track, and report defects'
+    },
+    {img : '/icons/api-testing.png',
+      alt:'API Testing',
+      title:'API Testing',
+      description:'Proficient in validating REST APIs with Postman to ensure reliable backend communication.'
+    },
+    {img : '/icons/automation-tools.png',
+      alt:'Automation Tools',
+      title:'Automation Tools',
+      description:'Hands-on practice with Selenium and Cypress for web application testing.'
+    },
+    {img : '/icons/database-testing.png',
+      alt:'Database Testing',
+      title:'Database Testing',
+      description:'Able to write and execute SQL queries to verify data integrity and consistency.'
+    },
+    {img : '/icons/perfomance-testing.png',
+      alt:'Perfomance Testing',
+      title:'Perfomance Testing',
+      description:'Knowledge of using tools like JMeter to assess application speed, scalability, and stability.'
+    },
+
+  ]
+
   return (
     <section
       className="SKILLS-SECTION" id="skills">
@@ -10,42 +45,14 @@ const Skills = () => {
         <TagSecondary title="Skills" />
 
         <div className="cards-wrapper grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-5 z-20">
-          <SkillCard
-            imgSrc="/icons/manual.png"
-            alt="manual"
-            title="Manual & Automation"
-            description="Skilled in executing test cases manually and automating workflows for efficiency."
+          {skills.map((skill, i) => (
+            <SkillCard
+            imgSrc={skill.img}
+            alt={skill.alt}
+            title={skill.title}
+            description={skill.description}
           />
-          <SkillCard
-            imgSrc="/icons/bug-tracking.png"
-            alt="bug-tracking"
-            title="Bug-Tracking"
-            description="Experienced in using tools like Jira and Trello to identify, track, and report defects"
-          />
-          <SkillCard
-            imgSrc="/icons/api-testing.png"
-            alt="API Testing"
-            title="API Testing"
-            description="Proficient in validating REST APIs with Postman to ensure reliable backend communication."
-          />
-          <SkillCard
-            imgSrc="/icons/automation-tools.png"
-            alt="automation-tools"
-            title="Automation Tools"
-            description="Hands-on practice with Selenium and Cypress for web application testing."
-          />
-          <SkillCard
-            imgSrc="/icons/database-testing.png"
-            alt="Database Testing"
-            title="Database Testing"
-            description="Able to write and execute SQL queries to verify data integrity and consistency."
-          />
-          <SkillCard
-            imgSrc="/icons/perfomance-testing.png"
-            alt="Perfomance Testing"
-            title="Perfomance Testing"
-            description="Knowledge of using tools like JMeter to assess application speed, scalability, and stability."
-          />
+          ))}
         </div>
 
         <img

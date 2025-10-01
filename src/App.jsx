@@ -1,6 +1,6 @@
 import { Toaster } from 'react-hot-toast'
 import './index.css'
-import About from './sections/aBOUT.JSX'
+import About from './sections/About'
 import Contact from './sections/Contact'
 import Experience from './sections/Experience'
 import Hero from './sections/Hero'
