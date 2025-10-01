@@ -1,5 +1,5 @@
 import React from "react";
-import SkillCard from "../components/skillsCards";
+import SkillCard from "../components/SkillsCards";
 import TagSecondary from "../components/TagSecondary";
 
 const Skills = () => {
