@@ -1,5 +1,4 @@
 import { Toaster } from 'react-hot-toast'
-import './index.css'
 import About from './sections/About'
 import Contact from './sections/Contact'
 import Experience from './sections/Experience'
@@ -8,6 +7,7 @@ import Navbar from './sections/Navbar'
 import Skills from './sections/Skills'
 import Work from './sections/Work'
 import Footer from './sections/footer'
+import './index.css'
 
 function App() {
 
