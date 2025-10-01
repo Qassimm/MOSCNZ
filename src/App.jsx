@@ -6,7 +6,7 @@ import Hero from './sections/Hero'
 import Navbar from './sections/Navbar'
 import Skills from './sections/Skills'
 import Work from './sections/Work'
-import Footer from './sections/footer'
+import Footer from './sections/Footer'
 import './index.css'
 
 function App() {
