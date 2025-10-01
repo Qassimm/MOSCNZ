@@ -84,7 +84,7 @@ const Navbar = () => {
                 <a href="#contact" className="hidden lg:inline mr-4 text-3xl font-nerko hover:text-primary text-secondary hover:bg-transparent bg-secondary transition border-primary border-2 rounded-xl py-1 px-2">
                   connect
                 </a>
-                <span className="lg:hidden">
+                <a href="#contact" className="lg:hidden">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -98,7 +98,7 @@ const Navbar = () => {
            011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"
                     />
                   </svg>
-                </span>
+                </a>
               </div>
             </div>
           </div>

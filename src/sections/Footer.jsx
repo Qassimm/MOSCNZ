@@ -21,8 +21,8 @@ const Footer = () => {
 
   return (
     <footer className="FOOTER-SECTION ">
-      <div className="container relative flex flex-col md:flex-row items-center gap-2 md:gap-0">
-        <div className="z-20">
+      <div className="container relative  flex flex-col md:flex-row items-center gap-2 md:gap-0">
+        <div className="z-20 ">
           <img src="/images/footer.png" alt="footer-img" className="" />
         </div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
         <img src="/arrows/blackArrow.svg" alt="black-arrow" className=" group-hover:-translate-y-5 transition duration-400" />
         <p className="text-5xl text-center font-nerko ">BACK <br /> TO TOP</p>
       </a>
-          <img src="/rough-icons/blue-triangle.gif" alt="triangle" className="h-20 sm:h-52 lg:h-52 -rotate-110 absolute -top-10 md:-top-25  left-0 md:-left-10" />
+          <img src="/rough-icons/blue-triangle.gif" alt="triangle" className="h-20 sm:h-40 lg:h-52 -rotate-110 absolute -top-10 md:-top-25  left-0 md:-left-10" />
         <img src="/rough-icons/blue-triangle.gif" alt="triangle" className="h-24 sm:h-48 lg:h-68 -rotate-10 absolute -top-10 md:-top-25  right-0 md:right-80 lg:right-140 z-20" />
         <img src="/rough-icons/blue-roll.gif" alt="blue-roll" className="hidden md:block h-30 lg:h-50 absolute bottom-5 right-70 lg:right-120 -rotate-120 z-20" />
         </div>
@@ -59,7 +59,7 @@ const Footer = () => {
       </a>
       </div>
            
-        <div className="mb-3 font-poppins text-primary font-bold">
+        <div className="mb-3 font-poppins text-primary font-bold text-center">
           <p>© Copyrights 2025 Mohsin Ali. All right reserved</p>
         </div>
     </footer>
