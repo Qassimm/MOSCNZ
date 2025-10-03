@@ -61,7 +61,7 @@ html {
 /* HERO -- SECTION */
 
 .HERO-SECTION{
-  @apply h-fit bg-dust pt-28 overflow-clip flex-center ;
+  @apply h-fit bg-dust pt-28 px-2 overflow-clip flex-center ;
 }
 
 .hero-container{
@@ -77,31 +77,19 @@ html {
 
 
 .ABOUT-SECTION{
-  @apply h-fit bg-secondary pb-24 pt-8 sm:pt-0 md:pb-20 md:py-15 lg:rounded-4xl overflow-x-clip;
+  @apply h-fit bg-secondary pb-24 pt-15 px-2 md:pb-20 md:py-15 rounded-4xl overflow-x-clip;
 }
 
 .About-container{
-  @apply relative text-secondary grid grid-cols-1 place-items-center gap-15 sm:gap-10 md:gap-6 px-2 ;
+  @apply relative text-secondary grid grid-cols-1 place-items-center gap-14  md:gap-6 px-2 ;
 }
 
 .heading-content{
   @apply flex-center w-full ;
 }
 
-.triangles{
-  @apply flex justify-between w-full sm:w-160 h-30 ;
-}
-
-.heading-primary{
-  @apply text-7xl sm:text-[150px] underline underline-offset-15 decoration-5 decoration-dashed text-center ;
-}
-
-.heading-secondary{
-  @apply text-7xl sm:text-[150px] underline underline-offset-15 decoration-5 decoration-dashed text-primary text-center ;
-}
-
 .about-content-wrapper{
-  @apply gap-4 sm:gap-2 md:gap-0 grid  grid-cols-1 md:grid-cols-2 text-center place-items-stretch relative ;
+  @apply gap-10 sm:gap-5 md:gap-15 grid  grid-cols-1 md:grid-cols-2 text-center place-items-stretch relative ;
 }
 
 .about-left-side{
@@ -117,7 +105,7 @@ html {
 
 
 .SKILLS-SECTION{
-  @apply h-fit bg-dust md:pt-8 pb-8 lg:pb-15  px-3  overflow-clip flex-center ;
+  @apply h-fit bg-dust pt-15 pb-15 px-2  overflow-clip flex-center gap-10 ;
 }
 
 
@@ -126,15 +114,15 @@ html {
 /* WORK--SECTION */
 
 .WORK-SECTION {
-  @apply h-fit bg-secondary  md:pt-0 pb-8  px-3 lg:rounded-4xl overflow-clip flex-center relative;
+  @apply h-fit bg-secondary  py-15   px-2 rounded-4xl overflow-clip flex-center relative;
 }
 
 .work-container{
-  @apply relative col-center gap-12 sm:gap-4 lg:gap-8;
+  @apply relative col-center gap-15  lg:gap-10;
 }
 
 .skills-cards-wrapper{
-  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-5 z-20;
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-10 sm:gap-8 z-20 px-3 md:px-5 lg:px-0;
 }
 
 
@@ -153,5 +141,5 @@ html {
 
 
 .FOOTER-SECTION{
-  @apply pt-10 px-3 md:pt-20 bg-dust flex flex-col items-center gap-18 overflow-clip ;
+  @apply px-2 pt-35 md:pt-20 bg-dust flex flex-col items-center gap-18 overflow-clip ;
 }

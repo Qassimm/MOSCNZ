@@ -6,10 +6,7 @@ const About = () => {
   return (
     <section className="ABOUT-SECTION" id="about">
       <div className="About-container">
-        <TagPrimary
-          title="About Me"
-          alt1="yellow-triangle"
-        />
+        <TagPrimary title="About Me" alt1="yellow-triangle" />
 
         <div className="flex justify-center items-center mx-auto">
           <div className="about-content-wrapper">
@@ -19,7 +16,7 @@ const About = () => {
                 alt="about"
                 className="hidden md:block lg:h-140 object-cover"
               />
-              <p className="font-poppins text-center sm:text-lg px-8 sm:px-10 md:px-0 lg:w-120 lg:text-start">
+              <p className="font-poppins  text-[15px] sm:text-lg   lg:w-120 md:ml-8 lg:ml-0 text-center md:text-start">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
                 sit adipisci impedit animi, laudantium ex maiores esse
                 doloremque! Quas, ipsam eos. Ipsam perspiciatis non
@@ -28,16 +25,11 @@ const About = () => {
                 perspiciatis non exercitationem, perferendis cum inventore ipsum
                 dignissimos.
               </p>
-              <img
-                src="/rough-icons/roll.gif"
-                alt="roll"
-                className="h-14 lg:h-24 absolute -bottom-15 left-0 rotate-160 scale-[-1]"
-              />
 
               <img
                 src="/arrows/whiteArrow.svg"
                 alt="white arrow"
-                className="absolute bottom-20 lg:bottom-30 right-40 lg:right-85 lg:h-46 -rotate-20 scale-x-[-1] hidden md:block"
+                className="absolute bottom-40 lg:bottom-30 right-40 lg:right-85 lg:h-46 -rotate-20 scale-x-[-1] hidden md:block"
               />
             </div>
 
@@ -45,15 +37,15 @@ const About = () => {
               <img
                 src="/rough-icons/roll.gif"
                 alt="roll"
-                className="h-13 lg:h-45 absolute -top-15 right-0 -rotate-20 scale-[-1]"
+                className="h-13 lg:h-45 absolute hidden sm:block -top-15 right-0 -rotate-20 scale-[-1]"
               />
               <img
                 src="/rough-icons/yellow-triangle.gif"
-                alt="yellow-circle"
+                alt="yellow-triangle"
                 className="absolute h-60 left-0 rotate-240 hidden lg:block"
               />
 
-              <h2 className="font-nerko text-2xl bg-[#ffd700] rounded-xl lg:rounded-4xl text-primary  md:text-8xl  max-w-2xl px-1 py-2 lg:mt-35">
+              <h2 className="font-nerko text-2xl bg-[#ffd700] rounded-xl lg:rounded-4xl text-primary  md:text-7xl lg:text-8xl  max-w-2xl  py-1 md:mt-12 lg:mt-35">
                 I Break Code to build Quality.
               </h2>
 
@@ -61,9 +53,9 @@ const About = () => {
                 href="https://www.linkedin.com/in/mohsin-ali-/"
                 target="__blank"
                 rel="Noopener noreferrer"
-                className="text-lg flex-center gap-1 absolute -bottom-15 md:bottom-0 md:right-18 hover:text-white transition duration-200"
+                className="text-lg flex-center gap-1 absolute -bottom-15 md:bottom-0 md:right-18 hover:text-white transition duration-200 mt-4"
               >
-                <FaLinkedin className="text-xl mt-1" />
+                <FaLinkedin className="text-xl mt-1 " />
                 connect with me
               </a>
             </div>

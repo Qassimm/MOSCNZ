@@ -7,16 +7,25 @@ const Hero = ({ children }) => {
       <div className="hero-container">
         <div className="hero-text-content z-10 ">
           <p className="text-lg lg:tracking-[0.2em] lg:ml-2">Hello! I&apos;m</p>
-          <h1 className="font-nerko text-secondary text-6xl sm:text-9xl bg-secondary px-2 rounded-xl ">
+          <h1 className="relative font-nerko text-secondary text-6xl sm:text-9xl lg:text-9xl bg-secondary px-1 rounded-xl ">
             MOHSIN-ALI
+            <img
+              src="/rough-icons/pop-lines.gif"
+              alt="pop-line"
+              className="h-35 absolute left-142 -top-22 rotate-120 hidden lg:block "
+            />
           </h1>
-          <p className="font-semibold sm:text-lg  sm:tracking-[0.4em] lg:tracking-[0.7em] ml-2">
+          <p className="font-semibold sm:text-lg  sm:tracking-[0.4em] lg:tracking-[12px] ml-2">
             QUALITY-ASSURANCE-ENGINEER
           </p>
 
           <div className="flex justify-center gap-4 my-5 ml-2">
-            <Btn title='Download CV' link='/pdf/MohsinAli-SQA-Analyst.pdf' download/>
-            <Btn title='Get in touch' link='#contact'/>
+            <Btn
+              title="Download CV"
+              link="/pdf/MohsinAli-SQA-Analyst.pdf"
+              download
+            />
+            <Btn title="Get in touch" link="#contact" />
           </div>
         </div>
 
@@ -30,7 +39,7 @@ const Hero = ({ children }) => {
           <img
             src="/images/hero.png"
             alt="img"
-            className="sm:h-[120vh] max-h-[41em]  object-cover"
+            className="sm:h-[120vh] lg:h-auto max-h-[41em]  object-cover"
           />
         </div>
 
@@ -45,11 +54,6 @@ const Hero = ({ children }) => {
           className="hidden md:block absolute md:-top-30 md:-left-60 lg:top-10 lg:-left-20 md:h-[45em] lg:h-[45em] opacity-65 "
         />
 
-        <img
-          src="/rough-icons/pop-lines.gif"
-          alt="pop-line"
-          className="h-35 absolute left-148 top-32 rotate-120 hidden lg:block "
-        />
         <img
           src="/rough-icons/yellow-triangle.gif"
           alt="yellow-triangle"

@@ -5,10 +5,10 @@ import toast from "react-hot-toast";
 const Contact = () => {
   return (
     <section
-      className="bg-secondary h-fit sm:h-fit py-8 md:py-12 lg:py-18  px-5 overflow-clip flex-center rounded-4xl"
+      className="bg-secondary h-fit  pt-45 pb-45  sm:pt-35 sm:pb-35 md:pt-10 md:pb-10  lg:pt-35 lg:pb-35   px-5 overflow-clip flex-center rounded-4xl"
       id="contact"
     >
-      <div className="container col-center gap-3 md:gap-3 lg:gap-12">
+      <div className="container col-center gap-3 md:gap-3 lg:gap-2">
         <ContactHeading />
 
         <img
