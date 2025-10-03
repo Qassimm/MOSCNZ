@@ -77,7 +77,7 @@ html {
 
 
 .ABOUT-SECTION{
-  @apply h-fit bg-secondary pb-24 pt-24 px-2 md:pb-20 md:py-15 rounded-4xl overflow-x-clip;
+  @apply h-fit bg-secondary pb-30 pt-20 px-2 md:pb-20 md:py-15 rounded-4xl overflow-x-clip;
 }
 
 .About-container{
