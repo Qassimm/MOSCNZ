@@ -11,27 +11,20 @@ const Work = () => {
         <div className="skills-cards-wrapper">
           <ProjectCard
             title="Replit-App"
-            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis cumque nihil magnam sit ad, quibusdam quae inventore voluptatibus"
+            img='/icons/replit.png'
             link="https://github.com/MohsinHoon/Replit-Apps"
-            className="sm:rotate-2 lg:-rotate-3"
+            className=" lg:-rotate-3"
           />
           <ProjectCard
             title="Play-wright with JS"
-            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis cumque nihil magnam sit ad, quibusdam quae inventore voluptatibus"
+            img='/icons/playwright.png'
             link="https://github.com/MohsinHoon/Playwright-with-Javascript"
-            className="sm:-rotate-2  lg:rotate-2"
           />
           <ProjectCard
             title="Cypress-Projects"
-            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis cumque nihil magnam sit ad, quibusdam quae inventore voluptatibus"
+            img='/icons/cypress.png'
             link="https://github.com/MohsinHoon/Cypress-Projects"
-            className="sm:rotate-2  lg:-rotate-3"
-          />
-          <ProjectCard
-            title="Cypress-Automation"
-            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis cumque nihil magnam sit ad, quibusdam quae inventore voluptatibus"
-            link="https://github.com/MohsinHoon/Cypress-Automation"
-            className="sm:-rotate-2 lg:rotate-2"
+            className="  lg:rotate-3 sm:col-span-2 lg:col-span-1 "
           />
         </div>
 

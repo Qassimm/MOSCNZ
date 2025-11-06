@@ -3,7 +3,7 @@ import Btn from "../components/Btn";
 
 const Hero = ({ children }) => {
   return (
-    <section className="HERO-SECTION">
+    <section className="HERO-SECTION ">
       <div className="hero-container">
         <div className="hero-text-content z-10 ">
           <p className="text-lg lg:tracking-[0.2em] lg:ml-2">Hello! I&apos;m</p>

@@ -5,7 +5,7 @@ export default function Btn({ title, link, download }) {
       {...(download ? { download } : {})}
       className="relative overflow-hidden hover:text-secondary font-semibold py-2 px-4 
              border-2 border-primary rounded-lg transition-colors duration-300 
-             text-primary group"
+             text-primary group "
     >
       <span className="relative z-10">{title}</span>
       <span

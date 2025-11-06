@@ -4,7 +4,7 @@ import TagPrimary from "../components/TagPrimary";
 
 const About = () => {
   return (
-    <section className="ABOUT-SECTION" id="about">
+    <section className="ABOUT-SECTION " id="about">
       <div className="About-container">
         <TagPrimary title="About Me" alt1="yellow-triangle" />
 
@@ -17,13 +17,7 @@ const About = () => {
                 className="hidden md:block lg:h-140 object-cover"
               />
               <p className="font-poppins  text-[15px] sm:text-lg   lg:w-120 md:ml-8 lg:ml-0 text-center md:text-start">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
-                sit adipisci impedit animi, laudantium ex maiores esse
-                doloremque! Quas, ipsam eos. Ipsam perspiciatis non
-                exercitationem, perferendis cum inventore ipsum
-                dignissimos.maiores esse doloremque! Quas, ipsam eos. Ipsam
-                perspiciatis non exercitationem, perferendis cum inventore ipsum
-                dignissimos.
+                I break code to build quality. To me, quality means delivering reliable solutions that stay within budget and are ready on time, each element working together to create the best results. My approach combines critical thinking, active listening, adaptability, and teamwork. These skills enable me to understand requirements, resolve challenges effectively, and collaborate seamlessly to ensure everything meets the highest standards. With a strong focus on thorough testing, I am committed to building products that people can trust and enjoy.
               </p>
 
               <img
