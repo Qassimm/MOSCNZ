@@ -50,10 +50,10 @@
   @apply flex flex-col items-center ;
 }
 
-@utility bg-dust{
-  background-image: url('../public/background-imgs/background.webp');
-  background-size: cover;
-  background-position: center;
+@layer utilities {
+  .bg-dust {
+    background: url('/background-imgs/background.webp') center/cover no-repeat;
+  }
 }
 
 

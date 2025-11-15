@@ -87,17 +87,17 @@ const Hero = () => {
 
         <a href="https://www.instagram.com/mohsinhoon/"
                 target="__blank"
-                rel="Noopener noreferrer" className="absolute hidden lg:block  top-5 left-5">
+                rel="Noopener noreferrer" className="absolute hidden lg:block  top-5 left-5 hover:scale-115 transition">
           <img src="/icons/insta.webp" id="icon" loading="lazy" alt="linkedin"  height={120} width={120} />
         </a>
         <a href="https://www.linkedin.com/in/mohsin-ali-/"
                 target="__blank"
-                rel="Noopener noreferrer" className="absolute hidden lg:block  top-5 left-120 ">
+                rel="Noopener noreferrer" className="absolute hidden lg:block  top-5 left-120 hover:scale-115 transition">
           <img src="/icons/linkedin.webp" id="icon" loading="lazy" alt="linkedin"  height={120} width={120} />
         </a>
         <a href="https://github.com/MohsinHoon"
                 target="__blank"
-                rel="Noopener noreferrer" className="absolute hidden lg:block  top-110 left-100 ">
+                rel="Noopener noreferrer" className="absolute hidden lg:block  top-110 left-100 hover:scale-115 transition ">
           <img src="/icons/github.webp" id="icon" loading="lazy" alt="linkedin"  height={120} width={120} />
         </a>
       </div>
