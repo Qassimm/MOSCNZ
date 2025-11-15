@@ -38,8 +38,9 @@ export default function Preloader() {
     >
       <div className="col-center gap-5">
         <img
-          src="/icons/logo.png"
+          src="/icons/logo.webp"
           alt="logo"
+          loading="eager"
           className="w-[65vw] sm:w-[35vw] md:w-[25vw] lg:w-[22vw] xl:w-[25vw] object-contain"
         />
         <span ref={percentRef}>0%</span>

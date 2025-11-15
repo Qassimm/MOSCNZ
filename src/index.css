@@ -9,13 +9,12 @@
 @font-face {
   font-family: 'Poppins';
   src: url('../src/assets/fonts/Poppins/Poppins-Regular.ttf');
+  font-display: swap;
 }
 
 
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 
 @theme{
@@ -52,7 +51,7 @@ html {
 }
 
 @utility bg-dust{
-  background-image: url('../public/background-imgs/background.jpg');
+  background-image: url('../public/background-imgs/background.webp');
   background-size: cover;
   background-position: center;
 }

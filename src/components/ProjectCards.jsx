@@ -4,9 +4,9 @@ import { LuArrowUpRight } from "react-icons/lu";
 export default function ProjectCard({ link, title, img, className }) {
   return (
     <div
-      className={`  h-90 lg:h-100 lg:max-w-88 rounded-2xl col-center justify-center md:gap-6  p-3 bg-primary ${className}`}
+      className={`  h-90 lg:h-100 lg:max-w-88 bg-dust rounded-2xl col-center justify-center md:gap-6  p-3 bg-primary ${className}`}
     >
-      <img src={img} alt="star" className="h-25 sm:h-30" />
+      <img src={img} loading="lazy" alt="star" className="h-25 sm:h-30" />
       <div className="text-primary text-center col-center gap-4">
         <h3 className="font-nerko text-3xl md:text-4xl">{title}</h3>
       </div>

@@ -12,8 +12,9 @@ const About = () => {
           <div className="about-content-wrapper">
             <div className="about-left-side">
               <img
-                src="/images/aboutt.png"
+                src="/images/aboutt.webp"
                 alt="about"
+                loading="lazy"
                 className="hidden md:block lg:h-140 object-cover"
               />
               <p className="font-poppins  text-[15px] sm:text-lg   lg:w-120 md:ml-8 lg:ml-0 text-center md:text-start">
@@ -21,20 +22,23 @@ const About = () => {
               </p>
 
               <img
-                src="/arrows/whiteArrow.svg"
+                src="/arrows/whiteArrow.webp"
                 alt="white arrow"
+                loading="lazy"
                 className="absolute bottom-40 lg:bottom-30 right-40 lg:right-85 lg:h-46 -rotate-20 scale-x-[-1] hidden md:block"
               />
             </div>
 
             <div className="about-right-side">
               <img
-                src="/rough-icons/roll.gif"
+                src="/rough-icons/roll.webp"
                 alt="roll"
+                loading="lazy"
                 className="h-13 lg:h-45 absolute hidden sm:block -top-15 right-0 -rotate-20 scale-[-1]"
               />
               <img
-                src="/rough-icons/yellow-triangle.gif"
+                src="/rough-icons/yellow-triangle.webp"
+                loading="lazy"
                 alt="yellow-triangle"
                 className="absolute h-60 left-0 rotate-240 hidden lg:block"
               />

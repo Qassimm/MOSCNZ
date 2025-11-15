@@ -6,7 +6,7 @@ export default function TagPrimary({ className, title }) {
           {title}
         </h1>
         <img
-          src="/rough-icons/yellow-pop-lines.gif"
+          src="/rough-icons/yellow-pop-lines.webp"
           alt="yellow-line"
           className="h-15 md:h-20 absolute -top-8 -left-8 md:-left-12 rotate-30 "
         />
